@@ -1,0 +1,30 @@
+#acordeonFAQ .item{
+    border-top: solid 1px #ccc;
+    cursor: pointer;
+    padding: 0 40px;
+    transition: all 1s;
+}
+
+#acordeonFAQ .item .pregunta{
+    padding: 20px 0;
+}
+
+#acordeonFAQ .item .respuesta{
+    display: none;
+    padding-bottom: 20px;
+}
+
+#acordeonFAQ .item:hover{
+    background-color: #ccc;
+}
+
+.acordeonActivado, .pregunta{
+    font-weight: bolder;
+}
+
+/*CREAR 1 CLASES QUE SE ACTIVARAN DESDE JAVASCRIPT*/
+
+.acordeonActivado, .acordeonActivado:hover{
+    background-color: #A3E0FF !important;
+}
+

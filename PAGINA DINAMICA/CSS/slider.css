@@ -1,0 +1,15 @@
+#Slider{
+    height: 450px;
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#ContenedorSlider{
+    height: 450px;
+    width: 2550px;
+}
+
+#ContenedorSlider img{
+    float: left;
+}
